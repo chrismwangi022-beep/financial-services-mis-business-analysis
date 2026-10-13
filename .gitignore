@@ -1,0 +1,23 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+~$*.docx
+
+docs/mis-profile/Spread_Capital_MIS_Profile_Consolidated.docx
