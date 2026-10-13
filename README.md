@@ -159,26 +159,35 @@ Sensitive customer information, credentials, personal identifiers, and confident
 
 ## 12. Current Status and Next Steps
 
-**Current milestone:** Local repository initialization and project documentation setup.
+**Current milestone:** Phase 001 — Initial System Discovery and Documentation.
 
-Planned next steps:
+### Completed
 
-1. Establish the documentation folder structure.
-2. Add the reviewed MIS Profile and Phase 001 discovery findings.
-3. Document the loan application workflow with evidence references.
-4. Create requirements, business rules, and open questions registers.
-5. Develop test scenarios for behavior that can be verified safely.
-6. Review consistency and traceability.
-7. Commit the documentation to Git and publish the repository to GitHub.
+- Established the local Git repository and published it to GitHub.
+- Conducted initial discovery of accessible MIS modules and user-facing screens.
+- Documented the initial Member Centre discovery, including the individual member listing and Add New Member form, in the MIS Profile working document.
+- Created and published the As-Is loan application workflow document (`BA-PROC-001`, Version 0.1).
+- Established evidence-based documentation principles and identified behaviors requiring further validation.
 
-## 13. Professional Relevance
+### In Progress
 
-This project demonstrates a practical approach to Technical Business Analysis: understanding a business system from its user-facing behavior, documenting current-state processes, organizing requirements, exposing uncertainty, and creating artifacts that can support implementation and testing.
+- Quality review and refinement of the MIS Profile and Phase 001 discovery documentation.
+- Alignment of the README, repository structure, and actual documentation artifacts.
+- Review of the loan application workflow for clarity, completeness, and consistency with available evidence.
 
-The emphasis is not on producing the largest volume of documentation. It is on producing accurate, useful, reviewable documentation that enables stakeholders to understand what the system does, what remains unknown, and what should be validated next.
+### Planned
+
+1. Complete the quality review of the MIS Profile and discovery findings.
+2. Develop a screen inventory and process documentation index.
+3. Create requirements, business rules, and open questions registers as evidence becomes available.
+4. Develop test scenarios for system behavior that can be verified safely and with appropriate authorization.
+5. Establish traceability between documented observations, requirements, and validation scenarios.
+6. Maintain version control and update the repository as artifacts are reviewed and completed.
+
+Planned activities are not represented as completed deliverables. System behavior that has not been tested or confirmed remains explicitly unverified.
 
 ---
 
 **Project:** Financial Services MIS — Business Analysis & Process Documentation
-**Repository status:** Initial setup
-**Last updated:** October 2026
+**Repository status:** Phase 001 — Initial Discovery and Documentation
+**Last updated:** 13 October 2026
