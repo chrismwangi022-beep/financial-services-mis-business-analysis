@@ -58,17 +58,18 @@ The exact system roles, permissions, and formal responsibility assignments have 
 
 The existence and enforcement of additional preconditions require validation.
 
-## 6. Main Success Flow
+## 6. Primary Workflow Sequence
 
 | Step | Actor | Action | Expected / Observable Outcome |
 |---|---|---|---|
 | 1 | MIS User | Navigates to Apply Loan in the sidebar. | The loan application search interface is displayed. |
 | 2 | MIS User | Enters the customer's ID number or phone number into the search field. | The user initiates a customer search. |
-| 3 | MIS User | Reviews the search results and identifies the intended customer. | A matching customer record is available for selection. |
+| 3 | MIS User | Reviews the available search result(s) and identifies the intended customer, where a matching record is returned. | The system displays the available search result(s), if any, for the user to review. |
 | 4 | MIS User | Selects Apply Loan for the matching customer. | The loan application form is displayed. |
 | 5 | MIS User | Enters the loan details using the manual loan form supplied by the branch. | The application fields are populated with the supplied information. |
 | 6 | MIS User | Completes the fields indicated as required by the interface. | The user has entered the information requested by the visible form. |
-| 7 | MIS User | Reviews the entered information and initiates the Save Loan action. | A save request is initiated. The final save outcome remains unverified. |
+| 7 | MIS User | Where applicable, uses the Fee Schedule Estimate function. | A fee-estimate function is available; the resulting calculation, validation, and system behavior are not verified. |
+| 8 | MIS User | Reviews the entered information and initiates the Save Loan action. | A save request is initiated. The final save outcome remains unverified. |
 
 **Important:** The final step describes the user's action, not proof that the application is successfully saved. Confirmation messages, generated application references, persistence, and subsequent workflow transitions have not been verified.
 
@@ -159,7 +160,7 @@ No new screenshots, test results, or stakeholder approvals are claimed by this d
 
 ---
 
-**Document ID:** BA-PROC-001  
-**Document Type:** As-Is Process Documentation  
-**Version:** 0.1  
+**Document ID:** BA-PROC-001
+**Document Type:** As-Is Process Documentation
+**Version:** 0.2
 **Status:** Draft — Pending Review and Validation
